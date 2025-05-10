@@ -1,0 +1,11 @@
+﻿{
+    "Id": "plugin-001",
+    "Name": "测试插件",
+    "PluginClassName": "Plugin1",
+    "Version": "1.0.0",
+    "Description": "测试插件",
+    "Author": "Claude",
+    "Style": 1,
+    "IsEnabled": true,
+    "CodeFilePath": "./Plugin1.cs"
+}
