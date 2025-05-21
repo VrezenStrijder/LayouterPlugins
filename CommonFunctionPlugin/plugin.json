@@ -1,0 +1,11 @@
+﻿{
+    "Id": "commonFunction-plugin",
+    "Name": "常用系统功能",
+    "PluginClassName": "CommonFunctionPlugin",
+    "Version": "1.0.0",
+    "Description": "提供常用系统功能的入口",
+    "Author": "VrezenStrijder",
+    "Style": 1,
+    "IsEnabled": true,
+    "CodeFilePath": "./CommonFunctionPlugin.cs"
+}
