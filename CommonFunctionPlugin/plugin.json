@@ -1,5 +1,6 @@
 ﻿{
-    "Id": "commonFunction-plugin",
+    "Id": "64B76608-F687-4294-B43B-442A9796689A",
+    "Key": "commonFunction-plugin",
     "Name": "常用系统功能",
     "PluginClassName": "CommonFunctionPlugin",
     "Version": "1.0.0",

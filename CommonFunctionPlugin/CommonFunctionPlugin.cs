@@ -3,14 +3,22 @@ using System.Collections.Generic;
 using System.Windows;
 using PluginEntry;
 
-public class CommonFunctionPlugin
+public class CommonFunctionPlugin : IPlugin
 {
     public Dictionary<string, Func<PluginParameter[], object>> FunctionDict { get; set; } = new Dictionary<string, Func<PluginParameter[], object>>();
 
-    public void Load()
+    public string Name => "常用系统功能";
+
+
+    public void Register()
     {
         // 注册功能
-        FunctionDict.Add("Load", Load);
+        //FunctionDict.Add("Load", Load);
+    }
+
+    public void Unregister()
+    {
+
     }
 
     public object Run(string functionKey, params PluginParameter[] parameters)
@@ -31,7 +39,7 @@ public class CommonFunctionPlugin
     }
 
 
-    private object Load(PluginParameter[] parameters)
+    public Dictionary<string, List<PluginParameter>> GetParameterDescriptions()
     {
         return null;
     }
