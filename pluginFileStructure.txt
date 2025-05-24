@@ -1,8 +1,9 @@
 ﻿plugin1.zip
+├── plugin1.cs        # 插件主代码
 ├── plugin.json       # 插件描述文件
 ├── icon.json         # 图标描述文件
-├── plugin1.cs         # 插件主代码
-├── icons/ 	# 图标目录(可选)
+├── style.json        # 样式描述文件(可选)
+├── icons/ 	         # 图标目录(可选)
     ├── icon1.png
     └── icon2.png
 └── libs/             # 依赖库目录(可选)
